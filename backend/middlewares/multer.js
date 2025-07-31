@@ -18,4 +18,4 @@ export const multipleUpload = multer({ storage }).fields([
  * You can keep the single upload middleware if you still need it elsewhere
  * for routes that only handle one file.
  */
-export const singleUpload = multer({ storage }).single("file");
+export const singleUpload = multer({ storage }).single("profilePhoto");
